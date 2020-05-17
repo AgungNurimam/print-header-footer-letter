@@ -1,0 +1,83 @@
+@page {
+    margin: 10mm 26mm 20mm 0mm;
+}
+
+body {
+    margin-left: 70.0px;
+    margin-right: 38.0px;
+    margin-top: 75.0px;
+    margin-bottom: 75.0px;
+    /* font-size: 11pt; */
+    /* font-size: 0.9167em; */
+    font-size: 1em;
+    font-family: Calibri;
+}
+
+table {
+    line-height: 1.5em;
+}
+
+/* Padding Margin Yth */
+
+ol {
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+img {
+    border: 0;
+    vertical-align: middle
+}
+
+.footer-style {
+    color: #2c74b9;
+    font-family: Calibri;
+    font-size: 0.9167em;
+    /* line-height: normal; */
+}
+
+.jarak-baris {
+    line-height: 0;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+@media screen {
+    .footer-print {
+        display: none;
+    }
+}
+
+@media print {
+    @page {
+        margin: 10mm 26mm 20mm 0mm;
+    }
+    /* Mengatur jarak konten dengan footer */
+    .footer, .footer-space {
+        height: 120px;
+    }
+    .footer-print {
+        position: fixed;
+        bottom: 0;
+        margin-top: 21px;
+    }
+    .footer-screen {
+        display: none;
+    }
+}
