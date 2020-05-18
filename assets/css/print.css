@@ -1,5 +1,7 @@
 @page {
     margin: 10mm 26mm 20mm 0mm;
+    font-size: 0.9167em !important;
+    font-family: Calibri !important;
 }
 
 body {
@@ -8,13 +10,15 @@ body {
     margin-top: 75.0px;
     margin-bottom: 75.0px;
     /* font-size: 11pt; */
-    font-size: 0.9167em;
+    font-size: 0.9167em !important;
     /* font-size: 1em; */
-    font-family: Calibri;
+    font-family: Calibri !important;
 }
 
 table {
-    line-height: 1.5em;
+    line-height: 1.4;
+    font-size: 1em !important;
+    font-family: Calibri !important;
 }
 
 /* Padding Margin Yth */
@@ -24,6 +28,8 @@ ol {
     padding-top: 0;
     padding-left: 0;
     list-style-position: inside;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 ul {
@@ -31,6 +37,8 @@ ul {
     padding-top: 0;
     padding-left: 0;
     list-style-position: inside;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 span ol {
@@ -39,6 +47,9 @@ span ol {
     padding-left: 40px;
     list-style-position: outside;
     line-height: 30%;
+}
+
+p {
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
@@ -49,8 +60,6 @@ span ul {
     padding-left: 40px;
     list-style-position: outside;
     line-height: 30%;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
 }
 
 img {
