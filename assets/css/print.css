@@ -23,7 +23,7 @@ ol {
     margin-top: 0;
     padding-top: 0;
     padding-left: 0;
-    list-style-position: inside;
+    padding-left: 40px;
 }
 
 img {
