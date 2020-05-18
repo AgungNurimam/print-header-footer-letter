@@ -39,6 +39,8 @@ span ol {
     padding-left: 40px;
     list-style-position: outside;
     line-height: 30%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 span ul {
@@ -47,6 +49,8 @@ span ul {
     padding-left: 40px;
     list-style-position: outside;
     line-height: 30%;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
 }
 
 img {
